@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Collage web app</title>
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link rel="stylesheet" href="playroom.css">
+<script src="playroom.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <button onclick="back()" style="color:white; background-color:greenyellow;">Back to home room</button>
+        <h1 style="color: black">Playroom</h1>
+                      <br>
+
+        <h3> Copy this link then post it on Google Chrome. When you click on the start button, as soon as the popup appears, click allow,</h3>
+        <h2 style="color:red">Then click on the start button and say "selfie".</h2>
+                <button class="btn btn-primary" onclick="start()">Start</button>
+                <textarea id="textbox" class="form-control" readonly="true"></textarea>
+                                  <br>
+                <h5>Click on Start</h5>
+                         <br>
+                         <br>
+               <h3>Selfies shown here:</h3>
+               
+                     <br>
+                     <h4>Your selfie:</h4>
+                     <div id="camera"></div>
+                     <br>
+                     <br>
+                     <br>
+               <span id="results">
+                   <img src="https://cdn.pixabay.com/photo/2018/06/03/14/42/forest-3450706_960_720.jpg" id="image_1" style="width:30%" >
+                   <img src="https://media.istockphoto.com/photos/camera-capturing-a-forest-picture-id618066222?k=20&m=618066222&s=170667a&w=0&h=iTSI4k_S08TCjcujx1UODiMIyGzgS5dL3hkBPj5YuKQ=" id="image_2" style="width:30%" >
+               </span>
+                         <br>
+            <div id="results">
+                <img src="https://cdn.ymaws.com/psa-photo.site-ym.com/resource/resmgr/images/home_page/camera-slide.jpg" id="image_3" style="width:30%" >
+            </div>
+    </body>
+</html>

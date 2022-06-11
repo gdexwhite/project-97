@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background: lightblue;
+}
+textarea{
+    width: 100px;
+}
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+    margin-left: 760px;
+}
